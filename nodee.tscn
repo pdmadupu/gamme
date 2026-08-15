@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://wrl0am8foxrg"]
+
+[node name="Node" type="Node" unique_id=809543916]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1025145238]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=735500238]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1315506049]
+
+[node name="killzone" type="Area2D" parent="." unique_id=474799901]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="killzone" unique_id=408729209]
+
+[node name="Timer" type="Timer" parent="." unique_id=1683360516]
+
+[node name="Timer2" type="Timer" parent="." unique_id=1842382906]
